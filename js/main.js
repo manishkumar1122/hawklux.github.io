@@ -52,3 +52,27 @@
     
 })(jQuery);
 
+jQuery("#department_1").click(function (){
+    $("ul.department_list_ li").removeClass("active")
+    $(this).addClass("active")
+    $(".department_img_sec").removeClass("active");
+    $("#department_1_img").addClass("active");
+});
+jQuery("#department_2").click(function (){
+    $("ul.department_list_ li").removeClass("active")
+    $(this).addClass("active")
+    $(".department_img_sec").removeClass("active");
+    $("#department_2_img").addClass("active");
+});
+jQuery("#department_3").click(function (){
+    $("ul.department_list_ li").removeClass("active")
+    $(this).addClass("active")
+    $(".department_img_sec").removeClass("active");
+    $("#department_3_img").addClass("active");
+});
+jQuery("#department_4").click(function (){
+    $("ul.department_list_ li").removeClass("active")
+    $(this).addClass("active")
+    $(".department_img_sec").removeClass("active");
+    $("#department_4_img").addClass("active");
+});
